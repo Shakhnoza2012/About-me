@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahnoza | Frontend Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #0a192f;
+      color: #ccd6f6;
+      font-family: 'Segoe UI', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+    h1 {
+      color: #64ffda;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 2rem;
+      color: #8892b0;
+      margin-bottom: 25px;
+    }
+    p {
+      max-width: 700px;
+      font-size: 1.1rem;
+      color: #8892b0;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .facts {
+      text-align: left;
+      max-width: 500px;
+      margin: 20px auto;
+      font-size: 1rem;
+      color: #8892b0;
+    }
+    .facts li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+    .facts li::before {
+      content: "✔️ ";
+      color: #64ffda;
+    }
+    .btn {
+      padding: 12px 30px;
+      border: 1px solid #64ffda;
+      color: #64ffda;
+      background: transparent;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background: #64ffda;
+      color: #0a192f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello, my name is</h1>
+  <h2>Shahnoza.</h2>
+  <h3>I'm a Frontend Developer.</h3>
+
+  <p>
+    Hello! My name is Shahnoza and I am a young, passionate Frontend Developer from Uzbekistan. I love building beautiful and responsive websites using HTML, CSS, and JavaScript. I enjoy learning new technologies and improving my skills every day.
+  </p>
+  <p>
+    One of my biggest dreams is to study and work as a professional developer in South Korea. I am currently learning English and Korean to prepare for my future goals. I believe hard work, dedication, and a positive mindset can help me achieve anything I want.
+  </p>
+  <p>
+    Outside of coding, I love exploring new cultures, reading about technology, and connecting with people who share the same passion for development.
+  </p>
+
+  <ul class="facts">
+    <li><strong>Age:</strong> 13</li>
+    <li><strong>Location:</strong> Uzbekistan</li>
+    <li><strong>Skills:</strong> HTML, CSS, JavaScript, GitHub</li>
+    <li><strong>Languages:</strong> Uzbek (native), English (intermediate), Korean (learning)</li>
+    <li><strong>Hobbies:</strong> Coding, Learning new languages, Technology, Exploring cultures</li>
+  </ul>
+
+  <button class="btn" onclick="sayHello()">Say Hello 👋</button>
+
+  <script>
+    function sayHello() {
+      alert("Thank you for visiting my About Me page!");
+    }
+  </script>
+
+</body>
+</html>
+
+
